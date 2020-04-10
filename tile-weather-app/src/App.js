@@ -6,7 +6,7 @@ import WeatherTile from './containers/WeatherTile/WeatherTile';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <InfoTile />
       <WeatherTile />
     </div>

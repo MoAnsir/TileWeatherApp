@@ -1,0 +1,13 @@
+.day-date-container {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.day-date-day {
+	margin: 0;
+}
+
+.day-date-dmy {
+	display: block;
+}
