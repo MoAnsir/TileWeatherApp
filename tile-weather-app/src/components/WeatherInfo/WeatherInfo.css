@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
 .weather-container {
 	position: absolute;
 	bottom: 25px;
 	left: 25px;
+}
+
+.weather-container .celsius {
+  position: relative;
+  width: 1.5em;
+}
+
+.weather-container .celsius:after {
+  display: inline;
+  content: "\2103";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .weather-icon.fa-snowflake{
