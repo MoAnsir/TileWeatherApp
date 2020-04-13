@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherInfo.css';
+import './ForecastElement.css';
 
 /*
 
@@ -18,16 +18,18 @@ import { faCloudSunRain } from "@fortawesome/free-solid-svg-icons";
 import { faCloudShowersHeavy } from "@fortawesome/free-solid-svg-icons";
 import { faSnowflake } from "@fortawesome/free-solid-svg-icons";
 
-const WeatherInfo = () => {
+const ForecastElement = (props) => {
   return (
-    <div className="weather-info-container">
-      <FontAwesomeIcon className="weather-icon" icon={faSun} />
-      <h1>
-        29<span className="celsius"></span>
-      </h1>
-      <h3>Sunny</h3>
+    <div className="week-container">
+      <ul className="week-list">
+        <li className={props.active}>
+          <FontAwesomeIcon className="weather-icon" icon={faSun} />
+          <span className="day-name">{props.day}</span>
+          <span className="day-temp">{props.temp}</span>
+        </li>
+      </ul>
     </div>
   );
-}
+};
 
-export default WeatherInfo
+export default ForecastElement;
