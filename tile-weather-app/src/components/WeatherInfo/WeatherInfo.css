@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+.weather-info-container {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+
+.weather-info-container .celsius {
+  position: relative;
+  width: 1.5em;
+}
+
+.weather-info-container .celsius:after {
+  display: inline;
+  content: "\2103";
+  font-family: 'Montserrat', sans-serif;
+}
+
+.weather-icon.svg-inline--fa{
+	height: 60px;
+	width: auto;
+}
+
+.weather-temp {
+	margin: 0;
+	font-weight: 700;
+	font-size: 4em;
+}
+
+.weather-desc {
+	margin: 0;
+}
