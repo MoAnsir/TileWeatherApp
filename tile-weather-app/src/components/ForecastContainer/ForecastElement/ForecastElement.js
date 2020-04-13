@@ -1,40 +1,31 @@
 import React from 'react';
 import './ForecastElement.css';
 
-/*
-
-TODO
-
-Think of a better way to deliver the icon.
-
-*/
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 const ForecastElement = (props) => {
   const forecastDetails = [
     {
-      icon: "faSun",
+      icon: "sun",
       day: "Tue",
       temp: "29",
       active: "active",
     },
     {
-      icon: "faCloud",
+      icon: "cloud",
       day: "Wed",
       temp: "21",
       active: "",
     },
     ,
     {
-      icon: "faCloudShowersHeavy",
+      icon: "cloud-showers-heavy",
       day: "Thur",
       temp: "15",
       active: "",
     },
     {
-      icon: "faCloudSun",
+      icon: "cloud-sun",
       day: "Fri",
       temp: "19",
       active: "",

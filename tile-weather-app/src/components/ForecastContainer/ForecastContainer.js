@@ -36,9 +36,6 @@ const ForeCast = () => {
   return (
     <Auxly>
       <ForecastElement />
-      {/*<ForecastElement icon="faSun" day="Tue" temp="29" active="" />
-      <ForecastElement icon="faSun" day="Tue" temp="29" active="" />
-      <ForecastElement icon="faSun" day="Tue" temp="29" active="" />*/}
     </Auxly>
   );
 }

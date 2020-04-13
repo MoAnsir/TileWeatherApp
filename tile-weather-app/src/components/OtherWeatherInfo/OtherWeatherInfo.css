@@ -1,8 +1,9 @@
 .today-info {
-	padding: 15px;
-	margin: 0 25px 25px 25px;
-/* 	box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25); */
+	padding: 15px 15px 15px 0;
+	margin: 0 15px 25px 15px;
+	box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
+	text-align: center;
 }
 
 .today-info>div:not(:last-child) {

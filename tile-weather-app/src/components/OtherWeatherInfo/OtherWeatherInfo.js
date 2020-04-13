@@ -6,15 +6,15 @@ const OtherWeatherInfo = () => {
     <div className="other-weather-info-container">
       <div className="today-info">
         <div className="precipitation">
-          <span>PRECIPITATION</span>
+          <span>PRECIPITATION : </span>
           <span>0%</span>
         </div>
         <div className="humidity">
-          <span>HUMIDITY</span>
+          <span>HUMIDITY : </span>
           <span>34%</span>
         </div>
         <div className="wind">
-          <span>WIND</span>
+          <span>WIND : </span>
           <span>0km/h</span>
         </div>
       </div>

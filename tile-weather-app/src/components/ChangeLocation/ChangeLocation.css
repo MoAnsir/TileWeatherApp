@@ -1,5 +1,5 @@
 .ChangeLocation-container {
-	padding: 25px 35px;
+	padding: 25px 35px 25px 15px;
 }
 
 .ChangeLocation-container .location-button {
@@ -10,7 +10,7 @@
 	border: none;
 	border-radius: 25px;
   padding: 10px;
-  margin-top: 25px;
+  /*margin-top: 25px;*/
 	font-family: 'Montserrat', sans-serif;
 	background-image: var(--gradient);
 	color: #ffffff;
