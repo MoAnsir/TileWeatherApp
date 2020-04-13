@@ -4,6 +4,9 @@ import './ForecastElement.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ForecastElement = (props) => {
+  {
+    /* Should get the following from a API call */
+  }
   const forecastDetails = [
     {
       icon: "sun",
